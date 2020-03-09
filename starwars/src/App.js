@@ -26,7 +26,7 @@ const App = () => {
   // side effect in a component, you want to think about which state and/or props it should
   // sync up with, if any.
 
-  // API Request w/Axios
+  // API Request
   useEffect(() => {
     axios
       .get(`https://swapi.co/api/people`)
