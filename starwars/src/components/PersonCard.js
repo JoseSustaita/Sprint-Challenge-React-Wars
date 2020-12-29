@@ -1,6 +1,4 @@
-// Import React, useEffect, and useState
 import React, { useEffect, useState } from "react";
-// import styled components
 import styled from "styled-components";
 
 const Card = styled.div`
@@ -15,7 +13,7 @@ const Card = styled.div`
     background-color: orange;
   }
 `;
-const PersonCard = props => {
+const PersonCard = (props) => {
   return (
     <Card>
       <h2>{props.name}</h2>
